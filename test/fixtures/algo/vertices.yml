@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  from_edge_id: 
+  to_edge_id: 
+  name: MyString
+  value: 1.5
+
+two:
+  from_edge_id: 
+  to_edge_id: 
+  name: MyString
+  value: 1.5
