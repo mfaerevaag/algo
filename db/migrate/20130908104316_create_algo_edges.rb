@@ -1,7 +1,8 @@
 class CreateAlgoEdges < ActiveRecord::Migration
   def change
     create_table :algo_edges do |t|
-      t.references :graph, index: true
+      t.references :from_vertex, index: true
+      t.references :to_vertex, index: true
       t.string :name
       t.float :value
 
